@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Bitacora unidad 3</title>
+
+</head>
+
+<body>
+    <img src="img/head.gif" alt="">
+    <header>
+        <nav>
+            <a href="#inicio">INICIO</a>
+            <a href="#for">FORMULARIOS HTML</a>
+            <a href="#tab">TABLAS</a>
+            <a href="#esp">ESPECIFICIDAD</a>
+            <a href="#hea">HEADER</a>
+            <a href="#foo">FOOTER</a>
+            <a href="#col">COLORES</a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1 class="h1">Bitacora unidad 3</h1>
+        </div>
+        <section class="cuadrop">
+            <br>
+            <br>
+            <div class="titutem">
+                <h2 id="ideas">Formularios HTML</h2>
+            </div>
+            <br><br>
+            <div class="ideas">
+                <h2 id="for">Ideas de este tema.</h2>
+                <br><br>
+                <div class="txti">
+                    <li>'form': Define el formulario, método de envío (GET o POST) y URL del servidor.</li>
+                    <li>'input': Crea campos de entrada de varios tipos (texto, contraseña, etc.).</li>
+                    <li>'textarea': Área de texto para entradas largas.</li>
+                    <li>'select' y 'option': Crean listas desplegables. </li>
+                    <li>'button': Crea botones (enviar, reiniciar, etc.).</li>
+                    <li>'label': Etiqueta descriptiva para un campo de entrada.</li>
+                    <li>'fieldset' y 'legend': Agrupan elementos de formulario.</li>
+                    <li>'placeholder': Texto descriptivo dentro del campo.</li>
+                    <li>'name': Nombre del campo para su identificación.</li>
+                    <li>'type': Tipo de campo de entrada.</li>
+
+                </div>
+            </div>
+            <div class="notas">
+                <h2>Notas</h2>
+                <br><br>
+                <p class="txtnot">
+                    Los formularios HTML son secciones interactivas que permiten ingresar datos, de cualquier cosa, como
+                    encuestas, o poner información personal, se definen con la etiqueta
+                    'form' y contienen elementos como ''input'' para campos de texto, al igual con contraseñas , el
+                    'textarea' para áreas de texto extensas y ''select' con ''option''' para listas desplegables,
+                    ''label'' para etiquetar los campos y ''button'' type="submit"> para enviar la información, se usa
+                    PHP para poder enviar la información que se puso en la en cualquiera de los campos que pusimos en la
+                    pagina, también se puede usar CSS para que se miren más chidos.
+                </p>
+                <br><br>
+                <img class="img" src="img/formu.jpg" alt="formularios">
+            </div>
+            <br><br><br>
+        </section>
+        <section class="sec2">
+            <div class="cuadro3">
+                <div class="resumen">
+                    <br>
+                    <div>
+                        <h2>Resumen del tema</h2>
+                    </div>
+                    <br>
+                    <div>
+                        <p class="txtre">Los formularios en algunas páginas son de suma importancia, tanto para que las
+                            personas ingresen a un sitio, de manera segura, o para hacer encuestas, hasta para el poder
+                            comprar artículos, porque también funciona para esto, ya que con los formularios se crean
+                            estos cuadros los cuales piden datos o contraseñas personales, por eso es importante
+                            realizarlos de manera segura y hasta con un buen estilo.
+                        </p><br>
+                        <p><a id="inicio" class="inicio" href=""> Ir al incio</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cuadrop">
+            <br>
+            <br>
+            <div class="titutem">
+                <h2 id="tab">TABLAS</h2>
+            </div>
+            <br><br>
+            <div class="ideas">
+                <h2>Ideas</h2>
+                <br><br>
+                <div class="txti">
+                    <li> Estructura básica: Las tablas se crean con la etiqueta 'table'. Se organizan en filas (tr) y
+                        celdas ('td' para datos y 'th' para encabezados).</li>
+                    <li>Encabezados: Los encabezados de tabla ('th') mejoran la accesibilidad y la estructura semántica.
+                        Se pueden usar atributos como 'scope' (row o col) para indicar si el encabezado se aplica a
+                        una fila o columna.</li>
+                    <li>Agrupación: Se pueden agrupar filas con 'thead', 'tbody' y 'tfoot' para mejorar la estructura y
+                        aplicar estilos.</li>
+                    <li>Celdas que abarcan varias filas o columnas: Se pueden crear celdas que ocupen varias filas o
+                        columnas con los atributos rowspan y colspan.</li>
+                </div>
+            </div>
+            <div class="notas">
+                <h2>Notas</h2>
+                <br><br>
+                <p class="txtnot">
+                    Las tablas en HTML se construyen con la etiqueta ‘table’, organizadas en filas (‘tr’) y celdas (‘td’
+                    o ‘th’). Los encabezados (‘th’) mejoran la estructura y la accesibilidad, y se pueden agrupar filas
+                    con ‘thead’, ‘tbody’ y ‘tfoot’. <br><br>
+
+                    Con CSS, se pueden aplicar bordes, controlar el espaciado entre celdas, alinear el contenido y poner
+                    las filas o columnas específicas, es importante usar tablas solo para datos tabulares, no para
+                    maquetar, y asegurarse de que sean accesibles y que sean llamativas depende de las páginas que se
+                    esté haciendo.
+                </p>
+                <br><br>
+                <img class="img" src="img/tablas.png" alt="tablas css">
+            </div>
+            <br><br><br>
+        </section>
+        <section class="sec2">
+            <div class="cuadro3">
+                <div class="resumen">
+                    <br>
+                    <div>
+                        <h2>Resumen</h2>
+                    </div>
+                    <br>
+                    <div>
+                        <p class="txtre">Las tablas son una herramienta fundamental para organizar información
+                            en filas y columnas, de forma similar a una hoja de cálculo, pero mas bonitas y mas
+                            creativas, dependiendo de la pagina que se este creando, se utilizan principalmente para
+                            presentar datos tabulares de manera estructurada y fácil de leer, con CSS se pueden ordenar
+                            mejor, y poner colores llamativos.</p> <br>
+                        <p><a id="inicio" class="inicio" href=""> Ir al incio</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cuadrop">
+            <br>
+            <br>
+            <div class="titutem">
+                <h2 id="esp">ESPECIFICIDAD</h2>
+            </div>
+            <br><br>
+            <div class="ideas">
+                <h2>Ideas</h2>
+                <br><br>
+                <div class="txti">
+                    <li>Estilos en línea: Los estilos que se aplican directamente al elemento HTML mediante el atributo
+                        style tienen la mayor especificidad. Esto se debe a que están directamente asociados al elemento
+                        y no hay duda sobre su intención.</li>
+                    <li>IDs: Los selectores que utilizan un ID (#id) tienen el segundo nivel de especificidad más alto.
+                        Los IDs están diseñados para ser únicos en un documento HTML, por lo que tienen un peso
+                        considerable. </li>
+                    <li>Clases, pseudo-clases y atributos: Los selectores que utilizan clases (.clase), pseudo-clases
+                        (:hover, :focus) o atributos ([atributo]) tienen una especificidad intermedia. Estos selectores
+                        son más específicos que los elementos, pero menos que los IDs. </li>
+                    <li>Elementos y pseudo-elementos: Los selectores que utilizan el nombre del elemento (p, div, h1,
+                        etc.) o pseudo-elementos (:before, :after) tienen la menor especificidad. Son los selectores más
+                        generales y, por lo tanto, tienen menos peso.</li>
+                    <li>!important anula cualquier regla, independientemente de la especificidad.</li>
+                    <li>div p: Especificidad baja (dos elementos).</li>
+                    <li>p: Especificidad baja (solo un elemento).</li>
+                    <li>div .clase p: Especificidad media (un elemento, una clase y otro elemento).</li>
+                </div>
+            </div>
+            <div class="notas">
+                <h2>Notas</h2>
+                <br><br>
+                <p class="txtnot">
+                    La especificidad en CSS es un conjunto de reglas que determinan qué estilos se aplican a un elemento
+                    HTML cuando hay varias reglas que podrían aplicarse, es casi como un sistema de pesos que el
+                    navegador
+                    utiliza para decidir qué estilo "gana" en caso de conflicto por asi decirlo, o tambien podemos
+                    utilizarlo a nuestro favor, en caso de que querramos hacer algun cambio rapido.
+                    <br><br>
+                    Utilizar adecuadamente el 'important' ya que este anula por completo lo que este haciendo cualquier
+                    elemento sin importar que sea mayor o menor.
+                </p>
+                <br><br>
+                <img class="img" src="img/espe.png" alt="especificaiones">
+            </div>
+            <br><br><br>
+        </section>
+        <section class="sec2">
+            <div class="cuadro3">
+                <div class="resumen">
+                    <br>
+                    <div>
+                        <h2>Resumen</h2>
+                    </div>
+                    <br>
+                    <div>
+                        <p class="txtre">La especificidad en CSS es un sistema de reglas que determina qué estilos se
+                            aplican a un elemento HTML cuando hay varias reglas en conflicto, basicamente el navegador
+                            calcula un "peso" para cada selector, priorizando los estilos en línea, seguidos de id,
+                            clases y
+                            finalmente elementos, !important fuerza la aplicación de un estilo, asi que puede ser muy
+                            efectivo, comprender este tema de la especificidad, me ayuda saber que es una herramienta
+                            para poder
+                            escribir en CSS más especifico y evitar conflictos entre elementos, si es que los hay claro.
+                        </p><br>
+                        <p><a id="inicio" class="inicio" href=""> Ir al incio</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cuadrop">
+            <br>
+            <br>
+            <div class="titutem">
+                <h2 id="hed">HEADER</h2>
+
+            </div>
+            <br><br>
+            <div class="ideas">
+                <h2>Ideas</h2>
+                <br><br>
+                <div class="txti">
+                    <li>Navegación: El menú de navegación es un elemento clave del header, permitiendo a los usuarios
+                        moverse entre las secciones del sitio web.</li>
+                    <li>Importancia del header: Es el primer elemento que ven los usuarios y debe ser ordenado y limpio
+                        para facilitar la navegación. </li>
+                    <li>Consistencia: El diseño del header debe ser consistente en todas las páginas del sitio web para
+                        crear una identidad visual uniforme.</li>
+                    <li>Planificación: Es crucial planificar qué elementos se incluirán en el header, considerando
+                        branding, navegación y otros factores.</li>
+                    <li>Elementos del header: La elección de elementos (logotipo, menú, buscador, datos de contacto,
+                        redes sociales, etc.) depende de los objetivos y el tipo de sitio web.</li>
+                    <li>Botones destacados: Son importantes para dirigir a los usuarios hacia acciones específicas, como
+                        solicitar información, buscar en la pagina o realizar una compra.</li>
+
+                </div>
+            </div>
+            <div class="notas">
+                <h2>Notas</h2>
+                <br><br>
+                <p class="txtnot">
+                    El header es lo más importante de una página porque esto es lo primerito que miramos al entrar a una
+                    página, así que este debe ser muy bonito y muy cómodo para que la persona pueda navegar de una
+                    manera ya sea divertida, o depende de la página que se elabore, principalmente con el CSS se puede
+                    hacer muy llamativa y poner cosas que a primera vista pues llamen mucho la atención acorde al tema
+                    que se esté dando, con las animaciones siento yo que se puede dar un toque muy único y visualmente
+                    muy lindo.
+                    <br>
+                    También cuidar mucho que este sea el mismo en las demás paginas si es que hay más de una página, y
+                    también poner siempre el logo de la empresa o de lo que sea el sitio web.
+                </p>
+                <br><br>
+                <img class="img" src="img/zelda.png" alt="header">
+            </div>
+            <br><br><br>
+        </section>
+        <section class="sec2">
+            <div class="cuadro3">
+                <div class="resumen">
+                    <br>
+                    <div>
+                        <h2>Resumen</h2>
+                    </div>
+                    <br>
+                    <div>
+                        <p class="txtre"> El header es un componente esencial en el diseño de una pagina web, este
+                            proporciona una estructura
+                            semántica, mejora la accesibilidad, facilita la navegación y permite crear una experiencia
+                            de usuario más atractiva. ya que al diseñar un header es la primera impresión que
+                            se lleva el usuario del sitio, por lo que debe ser visualmente atractivo, funcional y
+                            reflejar la
+                            identidad del sitio web y sobre todo que este muy bien estructurado.</p><br>
+                        <p><a id="inicio" class="inicio" href=""> Ir al incio</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cuadrop">
+            <br>
+            <br>
+            <div class="titutem">
+                <h2 id="foo">FOOTER</h2>
+            </div>
+            <br><br>
+            <div class="ideas">
+                <h2>Ideas</h2>
+                <br><br>
+                <div class="txti">
+                    <li>Planificación: Es importante planificar qué elementos se incluirán en el footer, considerando
+                        los objetivos del sitio y la estrategia de marketing. No se trata simplemente de rellenar
+                        espacio, sino de usar el footer de forma estratégica. </li>
+                    <li>Textos legales: Incluir los textos legales obligatorios, como la política de privacidad, el
+                        aviso legal y la política de cookies, es fundamental para cumplir con la ley y proteger la
+                        privacidad del usuario</li>
+                    <li>elementos: Se pueden incluir otros elementos según las necesidades, como información de
+                        contacto, un mapa del sitio, un formulario de suscripción o enlaces a páginas importantes.</li>
+                    <li>Redes sociales: Los enlaces a las redes sociales en el footer permiten a los usuarios conectar
+                        con la marca en diferentes plataformas.
+                    </li>
+                    <li>Un footer bien diseñado puede mejorar la experiencia del usuario, ofrecer información importante
+                        y contribuir a los objetivos del sitio.
+                    </li>
+
+                </div>
+            </div>
+            <div class="notas">
+                <h2>Notas</h2>
+                <br><br>
+                <p class="txtnot">
+                    Es importante aplicar el footer la información adecuada de la página que estemos realizando, no solo
+                    poner las redes sociales, sino que también poner avisos legales, cookies, ubicaciones del lugar de
+                    la empresa o local de lo que sea, también ayuda a la credibilidad de las páginas, ya que una página
+                    que sea por así decirlo comprobada legalmente es segura de navegar en ella.
+                    <br>
+                    Aquí es donde deben de ir las redes sociales, ya que en el header puden verse feas, también colocar
+                    el tema del coopyright, o sea los creditos de los diseñadores tipo fotos, etc y sobre todo los
+                    sellos de confianza que también son importantes.
+                </p>
+                <br><br>
+                <img class="img" src="img/footer.jpg" alt="footer">
+            </div>
+            <br><br><br>
+        </section>
+        <section class="sec2">
+            <div class="cuadro3">
+                <div class="resumen">
+                    <br>
+                    <div>
+                        <h2>Resumen</h2>
+                    </div>
+                    <br>
+                    <div>
+                        <p class="txtre">En resumen, el
+                            footer es una parte importante de una página web. No solo es un lugar para las redes
+                            sociales,
+                            sino también para brindar información esencial, generar confianza y mejorar la experiencia
+                            del usuario e incluso se puede hacer de una manera creativa para que sea mucho mas llamativo
+                            el sitio web.</p><br>
+                        <p><a id="inicio" class="inicio" href=""> Ir al incio</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cuadrop">
+            <br>
+            <br>
+            <div class="titutem">
+                <h2 id="col">Colores</h2>
+            </div>
+            <br><br>
+            <div class="ideas">
+                <h2>Ideas</h2>
+                <br><br>
+                <div class="txti">
+                    <li>Identificar el público objetivo de la página para que este asociada con el tema de la esta
+                        misma, es decir no sea un color erróneo al tema </li>
+                    <li>Las páginas tienen ante todo atraer y convencer a los visitantes para que permanezcan en el
+                        sitio. </li>
+                    <li>Una paleta de colores errónea puede hacer que un visitante no permanezca en el sitio web. </li>
+                    <li> Influye en las emociones y el comportamiento del usuario: Los colores tienen un impacto
+                        psicológico en las personas. Por ejemplo, el azul se asocia con la confianza y la tranquilidad,
+                        el rojo con la pasión y la energía, y el verde con la naturaleza y la frescura.</li>
+                    <li> Crea una experiencia de usuario coherente: Una paleta de colores bien definida crea una
+                        sensación de unidad y coherencia en todo el sitio web. Esto ayuda a que la experiencia del
+                        usuario sea más fluida y agradable.</li>
+                </div>
+            </div>
+            <div class="notas">
+                <h2>Notas</h2>
+                <br><br>
+                <p class="txtnot">
+                    Existe un círculo de 360 grados que este guía por así decirlo los diferentes tipos de colores que
+                    existen, están formados de la siguiente manera, HSL (Hue 0-359, Saturation 0%-100% Lightness
+                    0%-100%), esto significa que el primero seria 0 es rojo y mientras mas vueltas de al círculo pues va
+                    cambiando los tonos, ya sea claro u oscuro, este aumenta o disminuye, es importante saber usar los
+                    colores adecuados para las páginas y que cuando entren no tengan ningun disgusto por los colores tan
+                    llamativos que se usaron.
+                    <br><br>
+                    <img class="img" src="img/colors.webp" alt="colores-css">
+            </div>
+            <br><br><br>
+        </section>
+        <section class="sec2">
+            <div class="cuadro3">
+                <div class="resumen">
+                    <br>
+                    <div>
+                        <h2>Resumen</h2>
+                    </div>
+                    <br>
+                    <div>
+                        <p class="txtre">En resumen, la paleta de colores es una herramienta poderosa en el diseño web.
+                            Elegir la paleta adecuada puede marcar la diferencia en la experiencia del usuario, la
+                            percepción de la marca y el éxito del sitio web, por eso se deben seleccionar los colores
+                            correctos para el sitio, por ejemplo, no pondría una página de un dentista de color rojo o
+                            rosa por así decirlo. </p><br>
+                        <p><a id="inicio" class="inicio" href=""> Ir al incio</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

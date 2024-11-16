@@ -1,0 +1,163 @@
+
+* {
+    margin: auto;
+    text-align: center;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    height: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+   
+    }
+main {
+    width: 1366px;
+    height: auto;
+    margin: auto;
+   
+}
+header {
+    width: 1366px;
+    height: 100px;
+    text-align: center;
+}
+nav {
+    width: 1366px;
+    height: 50px;
+    background-color: #ccb27b;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 4px;
+    line-height: 50px;
+    font-size: 20px;
+    transition: .5s;
+}
+nav a:hover{
+    transform: scale(1.2);
+    text-shadow: 0 0 5px rgb(255, 8, 8); 
+    }
+section {
+    width: 1300px;
+    height: 950px;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    background: no-repeat;
+
+}
+.sec2 {
+width: 1360px;
+height: 250px;
+}
+.h1 {
+    text-align: center;
+    font-family: unlock;
+    height: 35px;
+    color: #000000;
+    text-shadow: 0 0 30px rgb(74, 133, 243), 0 0 20px rgb(243, 111, 111), 0 0 20px rgb(255, 6, 6);
+}
+h1{
+    animation: brillo 2s infinite;
+  }
+
+  @keyframes brillo {
+    0% { filter: brightness(1); }
+    50% { filter: brightness(3); }
+    100% { filter: brightness(1); }
+  }
+  
+
+.titutem {
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 50px rgb(255, 255, 255);
+    background-color: aqua;
+    width: 225px;
+    height: 60px;
+    background-image: url(../img/tem.png);  
+}
+.ideas {
+    width:600px ;
+    height:728px ;
+    float: left;
+    margin-left: 33px;
+    padding: 33px;
+    background-color:  rgb(216, 154, 54);
+    background-image: url(../img/ideas.png);
+}
+.notas {
+    width: 600px;
+    height: 728px;
+    float: left;
+    padding: 33px;
+    margin-left: 33px;
+    text-align: center;
+    background-color: rgb(247, 187, 91) ;
+    float: right;
+    background-image: url(../img/notas.png);
+ } 
+.resumen {
+    width: 1400px;
+    height: 250px;
+    background-color: rgba(236, 183, 98, 0.829);
+    float: left;
+    margin-top: 20px;
+    background-image: url(../img/resumen.png);
+    font-size: 18px;  
+    
+}
+body{
+    width: 1366px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.445);
+}
+.txtre{
+    flex-direction: column;
+    text-align: center;
+    width: 950px;
+}
+.txtnot{
+    text-align: center;
+    width: 400px;
+}
+.imgh{
+    text-align: center;
+}
+.inicio{
+    color: rgb(255, 255, 255);
+    text-decoration: dashed;
+    font-size-adjust: 15px;
+    text-shadow: 0 0 30px rgb(255, 252, 93), 0 0 20px rgb(175, 175, 175), 0 0 20px rgb(255, 115, 0);
+    animation: brillo-navidad 2s linear infinite;
+}
+
+ @keyframes brillo-navidad {
+    0% {
+      text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+    }
+    50% {
+      text-shadow: 0 0 10px green, 0 0 20px green, 0 0 30px green;
+    }
+    100% {
+      text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue;
+    }
+  }
+ 
+  
+.img{
+    width: 300px;
+    height: 200px;
+    transition: .5s;
+}
+img:hover {
+    
+    transform: scale(1.2);
+}
+.h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
